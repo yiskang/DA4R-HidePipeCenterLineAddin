@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>HidePipeCenterLineAddin</Name>
+		<FullClassName>HidePipeCenterLineAddin.Command</FullClassName>
+		<Text>HidePipeCenterLineAddin</Text>
+		<Description>Hide Pipe Center Line From View</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\HidePipeCenterLineAddin.dll</Assembly>
+		<AddInId>00263BAD-4E56-4661-8B60-9BF9BA6295E1</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

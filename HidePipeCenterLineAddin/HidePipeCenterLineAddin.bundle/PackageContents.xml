@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="Hide Pipe Center Line Addin" Author="aps.help@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="http://learnforge.autodesk.io" Email="aps.help@autodesk.com"/>
+	<Components Description="Hide Pipe Center Line">
+		<RuntimeRequirements SeriesMax="R2024" SeriesMin="R2021" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Hide Pipe Center Line From View" ModuleName="./Contents/HidePipeCenterLineAddin.addin" Version="1.0.0" AppName="HidePipeCenterLineAddin"/>
+	</Components>
+</ApplicationPackage>
